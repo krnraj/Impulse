@@ -1,0 +1,148 @@
+body {
+
+	background-color: #000000;
+	font-size: 87.54%;
+	line-height: 1.5;
+	text-align: left;
+	font-family: "Estrangelo Edessa";
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color:#CF5C3F;
+}
+a:hover, a:active {
+	background-color: blue;
+	color: #FFFFFF;
+}
+
+.body {
+
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.MainHeader nav {
+	background-color: #666666;
+	margin-top: 1%;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.MainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+	color: #000000;
+}
+
+.MainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.MainHeader nav a:link, .MainHeader nav a:visited {
+	color: white;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.MainHeader nav a:hover, .MainHeader nav a:active, .MainHeader nav.active a:link, .MainHeader nav.active a:visited {
+	background-color: #0000FF;
+	text-shadow: black;
+}
+
+.MainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topContent {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 24;
+	padding: 3% 5%;
+	margin-top: 2%;
+	color: #666666;
+	background-color: #666666;
+	font-size: large;
+}
+.bottomContent {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	background-color: #666666;
+	color: #FFFFFF;
+	font-size: medium;
+}
+.TopSidebar {
+
+	width: 21%;
+	float: left;
+	margin-left: 3%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666666;
+	margin-top: 2%;
+	padding: 2% 3%;
+	color: #FFFFFF;
+}
+}
+.PostInfo {
+	font-style: italic;
+	color: #666666;
+	font-size: 80%;
+}
+.MiddleSidebar {
+	width: 21%;
+	float: left;
+	margin-left: 3%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666666;
+	color: #FFFFFF;
+	margin-top: 2%;
+	padding: 2% 3%;
+}
+
+.ht {
+	margin-top: 2%;
+	margin-left: 20%
+}
+.mainFooter {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2%, 0;
+}
+.mainFooter p {
+	padding: 1% 4%;
+	background-color: #666666;
+	width: 92%;
+	margin: 10px auto;
+}
